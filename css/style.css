@@ -76,6 +76,10 @@ body {
   background: hsl(158, 36%, 27%);
 }
 
+.card .product-text button:active {
+  background: hsl(158, 36%, 17%);
+}
+
 .card .product-text button span {
   align-items: center;
   justify-content: center;
