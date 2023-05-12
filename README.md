@@ -136,4 +136,4 @@ As of the writing of this section, I have no areas that I want to continue focus
 
 ## Acknowledgments
 
-I want to give a hat tip to LambdaTest for providing guide on how to use CSS breakpoints for responsive design
+I want to give a hat tip to LambdaTest for providing guide on how to use CSS breakpoints for responsive design. I also want to give another one to [@Hassiai](https://www.frontendmentor.io/profile/Hassiai) for giving advice on using relative units instead of absolute units in my CSS for more responsive design on my previous challenge. I have now implemented it in this challenge.
