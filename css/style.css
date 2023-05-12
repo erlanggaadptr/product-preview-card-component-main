@@ -15,5 +15,37 @@
 }
 
 body {
-  font-size: 14px;
+  background: var(--cream);
+}
+
+main {
+  height: 100vh;
+}
+
+.card {
+  background: var(--white);
+  width: 35rem;
+}
+
+.card-left, 
+.card-right {
+  width: 50%;
+}
+
+.card-left img {
+  width: 100%;
+}
+
+.card-right {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+}
+
+#product-text > *:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+#price p {
+  display: inline-block;
 }
