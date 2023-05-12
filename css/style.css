@@ -55,6 +55,7 @@ body {
 
 .product-text .subtitle {
   letter-spacing: 0.25rem;
+  text-transform: uppercase;
 }
 
 .product-text h1 {
@@ -85,12 +86,15 @@ body {
 }
 
 button {
-  font-weight: 700;
   border: none;
   background: var(--dark-cyan);
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+button:hover {
+  background: hsl(158, 36%, 27%);
 }
 
 button span {
@@ -102,4 +106,5 @@ button span {
 
 button span {
   color: var(--white);
+  font-weight: 700;
 }
