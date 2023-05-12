@@ -1,0 +1,29 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Fraunces', serif;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold-text {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+.light-text {
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
