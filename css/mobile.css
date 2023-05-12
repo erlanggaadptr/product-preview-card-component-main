@@ -1,0 +1,29 @@
+.card {
+  height: 90vh;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.product-img, 
+.product-text {
+  width: 100%;
+}
+
+.product-img {
+  height: 40%;
+}
+
+.product-img img {
+  object-position: 50% 30%;
+}
+
+.product-text {
+  height: 60%;
+}
+
+@media (max-width: 361px) {
+  .card {
+    overflow: scroll;
+  }
+}
