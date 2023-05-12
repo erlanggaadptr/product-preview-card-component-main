@@ -5,20 +5,20 @@
   justify-content: center;
 }
 
-.product-img, 
-.product-text {
+.card .product-img .product-img, 
+.card .product-img .product-text {
   width: 100%;
 }
 
-.product-img {
+.card .product-img .product-img {
   height: 40%;
 }
 
-.product-img img {
+.card .product-img .product-img img {
   object-position: 50% 30%;
 }
 
-.product-text {
+.card .product-img .product-text {
   height: 60%;
 }
 
